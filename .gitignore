@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Secrets — must never exist here, belt-and-braces
+disclosures.json
+holder_key.txt
+credential.json
+attributes.txt
+*.pem
+*.key
+.env
+.env.*
+
+# Local files
+*.log
+.DS_Store
+.vscode/
